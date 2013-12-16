@@ -73,8 +73,8 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -116,12 +116,23 @@ alias ham=hamster-cli
 
 
 # custom functions
-backup() {
+function backup {
     cp -v $1 $1.bak
 }
+
+function ffile {
+    find . -name "*$1*"; 
+   }
 
 # 256 colors
 export TERM="xterm-256color"
 
 # vim mode 
-set -o vi
+# set -o vi
+
+# pythonpath
+# PYTHONPATH=/usr/local/lib/python2.7/dist-packages:/usr/lib/pymodules/python2.7/mpl_toolkits/basemap:$PYTHONPATH
+
+alias ru="setxkbmap 'us,ru' -option 'grp:alt_shift_toggle'"
+
+alias pynotebook='ipython notebook --pylab=inline'
