@@ -42,4 +42,4 @@ precmd () { vcs_info }
 setopt prompt_subst
 PS1="\$vcs_info_msg_0_$PS1"
 
-source zshgitrc
+source ~/dotfiles/zshgitrc
