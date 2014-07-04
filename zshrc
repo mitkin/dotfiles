@@ -43,3 +43,5 @@ setopt prompt_subst
 PS1="\$vcs_info_msg_0_$PS1"
 
 source ~/dotfiles/zshgitrc
+alias tmux='tmux -2'
+export TERM=xterm-256color
