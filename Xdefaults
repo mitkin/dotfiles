@@ -1,0 +1,18 @@
+Xft.hintstyle:	hintslight
+Xft.dpi:	96
+Xft.rgba:	rgba
+Xft.hinting:	true
+Xft.antialias:	true
+XTerm*charClass:	33:48,37-38:48,45-47:48,64:48,58:48,126:48,61:48,63:48,43:48,35:38
+XTerm*utf8:	1
+XTerm*trimSelection:	true
+XTerm*faceName:	Liberation Mono
+XTerm*loginShell:	true
+XTerm*eightBitInput:	false
+XTerm*faceSize:	11
+XTerm*altSendsEscape:	true
+XTerm*cursorBlink:	false
+V!Xcursor.theme:	Vanilla-DMZ-AA
+dt.obsolete:	true
+xterm*Background: black
+xterm*Foreground: white
