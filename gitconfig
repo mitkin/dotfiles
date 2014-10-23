@@ -1,5 +1,6 @@
 [user]
 	name = Mikhail Itkin
+	email = itkin.m@gmail.com
 [alias]
 	unstage = reset HEAD
 	staged = diff --staged
