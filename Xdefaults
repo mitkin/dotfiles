@@ -9,7 +9,7 @@ XTerm*trimSelection:	true
 XTerm*faceName:	Liberation Mono
 XTerm*loginShell:	true
 XTerm*eightBitInput:	false
-XTerm*faceSize:	11
+XTerm*faceSize:	9
 XTerm*altSendsEscape:	true
 XTerm*cursorBlink:	false
 V!Xcursor.theme:	Vanilla-DMZ-AA
